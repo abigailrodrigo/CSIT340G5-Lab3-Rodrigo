@@ -74,6 +74,154 @@ export default App
 
 
 
+//1.4
+// const Header = ({ course }) => {
+//   return <h1>{course}</h1>
+// }
+
+// const Part = ({ name, units }) => {
+//   return (
+//     <p>
+//       {name} - {units}
+//     </p>
+//   )
+// }
+
+// const Content = ({ parts }) => {
+//   return (
+//     <div>
+//       {parts.map(part =>
+//         <Part key={part.name} name={part.name} units={part.units} />
+//       )}
+//     </div>
+//   )
+// }
+
+// const Total = ({ parts }) => {
+//   const total = parts.reduce((sum, part) => sum + part.units, 0)
+
+//   return <p>Total units - {total}</p>
+// }
+
+// const Footer = ({ name, courseCode, section }) => {
+//   return (
+//     <footer>
+//       {name} - {courseCode} - {section}
+//     </footer>
+//   )
+// }
+
+// const App = () => {
+//   const course = {
+//     name: 'Bachelor of Science in Information Technology',
+//     parts: [
+//       {
+//         name: 'Information Management 2',
+//         units: 3
+//       },
+//       {
+//         name: 'Technopreneurship',
+//         units: 3
+//       },
+//       {
+//         name: 'Project Management for IT',
+//         units: 3
+//       }
+//     ]
+//   }
+
+//   return (
+//     <div>
+//       <Header course={course.name} />
+//       <Content parts={course.parts} />
+//       <Total parts={course.parts} />
+//       <Footer
+//         name="Abigail G. Rodrigo"
+//         courseCode="CSIT340"
+//         section="G5"
+//       />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+//1.3
+// const Header = ({ course }) => {
+//   return <h1>{course}</h1>
+// }
+
+// const Part = ({ name, units }) => {
+//   return (
+//     <p>
+//       {name} - {units}
+//     </p>
+//   )
+// }
+
+// const Content = ({ parts }) => {
+//   return (
+//     <div>
+//       <Part name={parts[0].name} units={parts[0].units} />
+//       <Part name={parts[1].name} units={parts[1].units} />
+//       <Part name={parts[2].name} units={parts[2].units} />
+//     </div>
+//   )
+// }
+
+// const Total = ({ parts }) => {
+//   const total = parts.reduce((sum, part) => sum + part.units, 0)
+
+//   return <p>Total units - {total}</p>
+// }
+
+// const Footer = ({ name, courseCode, section }) => {
+//   return (
+//     <footer>
+//       {name} - {courseCode} - {section}
+//     </footer>
+//   )
+// }
+
+// const App = () => {
+//   const course = {
+//     name: 'Bachelor of Science in Information Technology',
+//     parts: [
+//       {
+//         name: 'Information Management 2',
+//         units: 3
+//       },
+//       {
+//         name: 'Technopreneurship',
+//         units: 3
+//       },
+//       {
+//         name: 'Project Management for IT',
+//         units: 3
+//       }
+//     ]
+//   }
+
+//   return (
+//     <div>
+//       <Header course={course.name} />
+//       <Content parts={course.parts} />
+//       <Total parts={course.parts} />
+//       <Footer
+//         name="Abigail G. Rodrigo"
+//         courseCode="CSIT340"
+//         section="G5"
+//       />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 
 
 
